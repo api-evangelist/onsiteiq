@@ -1,8 +1,24 @@
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 aid: onsiteiq
-name: Onsiteiq
-description: Onsiteiq is a company surfaced as a portfolio company of anthemis, bullpen-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: OnsiteIQ
+description: >-
+  OnsiteIQ is a construction intelligence platform for real estate owners and
+  developers that combines regular on-site 360-degree reality capture with
+  AI-powered computer vision to monitor construction progress across trades and
+  asset classes. The platform documents projects visually week over week, turns
+  the imagery into searchable, measurable records, and surfaces analytics and
+  actionable insights that teams use to verify progress, support payment
+  applications, and make business-critical decisions on projects anywhere in the
+  world. OnsiteIQ is a private company headquartered in New York City and backed
+  by Anthemis and Bullpen Capital. As surfaced through the API Evangelist
+  network, OnsiteIQ publishes a marketing and product website but does not expose
+  a public developer API, documentation portal, or machine-readable API surface
+  at this time; this profile records that honest state alongside the company's
+  identity and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/onsiteiq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +27,32 @@ x-backed-by:
 - bullpen-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://onsiteiq.com/wp-content/uploads/2023/02/oiq-opengraph2.png
 tags:
 - Company
+- Construction
+- Construction Technology
+- Reality Capture
+- 360 Imaging
+- Computer Vision
+- Artificial Intelligence
+- Real Estate
+- Project Management
+- Construction Monitoring
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +60,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/onsiteiq-domain-security.yml
 - type: Website
-  url: https://www.onsiteiq.io
+  url: https://onsiteiq.com
+- type: Product
+  url: https://onsiteiq.com/product
+- type: TermsOfService
+  url: https://onsiteiq.com/terms
+- type: PrivacyPolicy
+  url: https://onsiteiq.com/privacy
+- type: Login
+  url: https://onsiteiq.com/login
