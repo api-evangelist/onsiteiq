@@ -59,9 +59,9 @@ tags:
 - Construction Technology
 - Reality Capture
 - 360 Imaging
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
-- Real-Estate
+- Real Estate
 - Project Management
 - Construction Monitoring
 tags_raw:
@@ -75,6 +75,8 @@ tags_raw:
 - Real Estate
 - Project Management
 - Construction Monitoring
+- Computer-Vision
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
